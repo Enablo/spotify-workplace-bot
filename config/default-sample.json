@@ -1,0 +1,30 @@
+{
+    "facebookWorkplace": {
+        "community": "Community ID from Facebook Workplace",
+        "appId": "Application ID from Facebook Workplace Integrations",
+        "appSecret": "Application Secret from Facebook Workplace Integrations",
+        "pageAccessToken": "Application Acces Token from Facebook Workplace Integrations",
+        "verifyToken": "Random token used to verify subscription on Webhooks"
+    },
+    "webapp": {
+        "port": 3000,
+        "developmentKey": "In development, specifify a key to enable HTTPS. Otherwise set to false.",
+        "developmentCert": "In development, specifify a certificate to enable HTTPS. Otherwise set to false.",
+        "publicUrl": "Public URL of the application, used mainly for callbacks. (eg. https://app.enablo.com)"
+    },
+    "database": {
+       "mongo": "MongoDB connection URL (eg. mongodb://localhost:27017/enablo-spotify-local-dev)"
+    },
+    "spotify": {
+        "workplaceAdmins": ["Workplace User ID's who can configure the integrations"],
+        "workplaceGroups": ["Workplace Group ID's to listen to for updates"],
+        "clientId": "Spotify Client ID (https://developer.spotify.com/my-applications/)",
+        "clientSecret": "Spotify Client Secret (https://developer.spotify.com/my-applications/)",
+        "scopes": [
+            "playlist-read-private",
+            "playlist-read-collaborative",
+            "playlist-modify-public",
+            "playlist-modify-private"
+        ]
+    }
+}
