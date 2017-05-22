@@ -13,7 +13,7 @@
         "publicUrl": "Public URL of the application, used mainly for callbacks. (eg. https://app.enablo.com)"
     },
     "database": {
-       "mongo": "MongoDB connection URL (eg. mongodb://localhost:27017/enablo-spotify-local-dev)"
+       "mongo": "MongoDB connection URL (eg. mongodb://mongo:27017/enablo-spotify)"
     },
     "spotify": {
         "workplaceAdmins": ["Workplace User ID's who can configure the integrations"],

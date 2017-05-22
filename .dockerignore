@@ -1,5 +1,9 @@
 node_modules
-bin
-tmp
 kube
+config/*
+!config/default-sample.json
+.eslintrc
+.gitignore
+build-push.sh
+gulpfile.js
 

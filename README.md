@@ -7,18 +7,13 @@
 Enablo Spotify is a quick Workplace by Facebook Group integration that powers Enablo Radio. Internally we use this to build
 a community around our love of music.
 
-## Getting Started
-
-At the moment these is a small bug in the code which impacts the installation of the project. While we work through this issue
-we are putting the code up here for reference. 
-
 ## Running the tests
 
 Tests are coming, just wanted to get the code up and bug fixed first.
 
 ## Deployment
 
-Add additional notes about how to deploy this on a live system
+A rough outline on how to deploy is available, but we will look to clean it up in the short term once a couple of installation bugs are resolved - see the [SETUP.md](SETUP.md) file for details
 
 ## Authors
 
