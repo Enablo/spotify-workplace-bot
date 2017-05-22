@@ -4,3 +4,4 @@ config/*.json
 yarn-error.log
 build-push.sh
 *.sublime-workspace
+kube
