@@ -1,5 +1,8 @@
 # Enablo Spotify
 
+[![Code Climate](https://codeclimate.com/github/codeclimate/codeclimate/badges/gpa.svg)](https://codeclimate.com/github/codeclimate/codeclimate)
+[![Test Coverage](https://codeclimate.com/github/codeclimate/codeclimate/badges/coverage.svg)](https://codeclimate.com/github/codeclimate/codeclimate/coverage)
+
 Enablo Spotify is a quick Workplace by Facebook Group integration that powers Enablo Radio. Internally we use this to build
 a community around our love of music.
 
