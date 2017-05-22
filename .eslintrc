@@ -1,0 +1,10 @@
+{
+    "extends": "airbnb",
+    "rules": {
+        "func-names": ["error", "never"]
+    },
+    "env": {
+        "node": true,
+        "es6": true
+    }
+}
