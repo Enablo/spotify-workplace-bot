@@ -21,16 +21,6 @@ Follow the following steps to get Enablo Radio working. They are a little rough 
     * spotify.workplaceGroups: the group ID's of Workplace you want to listen to for updates
     * facebookWorkplace.verifyToken: a random string used when configuring the webhooks
 15. Now start the application, there is a number of ways to do this. You can push it out to a PaaS, but that requires additional configuration which I will not cover here. We also use Kubernettes which I will look to add a config for. Probably the easiest way at the moment is to use docker-compose, an example without HTTPS can be [found here](https://gist.github.com/enablo-dev/f7901ae194ddee3d7ecebb70b3c392c1).
-16. Once the application is running, time to configure the Workplace webhooks. Open the integration you defined before and click on Configure Webhooks.
-    1. Page
-        * Callback URL: https://{ your public url }/facebook/pages/webhook
-        * Subscription Fields: mention, messages, messaging_postbacks
-        * Verify Token: The random string you generated before
-    2. Groups
-        * Callback URL: https://{ your public url }/facebook/groups/webhook
-        * Subscription Fields: comments, posts
-        * Verify Token: The random string you generate before
-17. Click save and Facebook should verify it can reach the application.
-18. Now go back to Facebook Messanger and search for the name of the Application you created.
-19. Open a conversation with it and click Get Started and walk through the configuration.
+16. Now go back to Facebook Messanger and search for the name of the Application you created.
+17. Open a conversation with it and click Get Started and walk through the configuration.
 
