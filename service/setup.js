@@ -9,22 +9,17 @@ const configureFacebookWorkplace = () => {
     } else {
       logger.info('Subscription enabled in Workplace.');
 
-      /* eslint-disable */
-      // Look's like there is a bug when registering webhooks using this method.
-      // Group posts are returning a different response than when registering via the webui.
-
       // Enable page webhook
-      /*facebookWebhooks.subscribePageWebhook((pageWebhookErr) => {
+      facebookWebhooks.subscribePageWebhook((pageWebhookErr) => {
         if (pageWebhookErr) logger.error('Unable to configure page webhook in Workplace, please check your configuration settings.');
         else logger.info('Page webhook enabled in Workplace.');
-      });*
+      });
 
       // Enable group webhook
-      /*facebookWebhooks.subscribeGroupWebhook((groupWebhookErr) => {
+      facebookWebhooks.subscribeGroupWebhook((groupWebhookErr) => {
         if (groupWebhookErr) logger.error('Unable to configure group webhook in Workplace, please check your configuration settings.');
         else logger.info('Group webhook enabled in Workplace.');
-      });*/
-      /* eslint-enable */
+      });
 
       // Configure get started button
       facebookWebhooks.configureGettingStarted((gettingStartedErr) => {
